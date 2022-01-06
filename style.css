@@ -1,0 +1,13 @@
+img {
+    width: 60px;
+}
+.logo-text{
+    font-size: 25px;
+}
+div{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    background:#186DB6;
+    border-radius: 15px;
+}
