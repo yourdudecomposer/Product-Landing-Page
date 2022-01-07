@@ -1,13 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid #ababab; */
+}
+a {
+    text-decoration: none;
+    color: #000;
+    word-spacing: -1px;
+}
+
 img {
     width: 60px;
+    height: 65px;
+    margin-right: 8px;
+    position: relative;
+    bottom: 1px;
 }
-.logo-text{
-    font-size: 25px;
-}
-div{
+
+
+.logo{
+    
     display: flex;
     align-items: center;
-    width: 250px;
-    background:#186DB6;
-    border-radius: 15px;
+    margin-left: 20px;
+
 }
+.logo-text{
+    font-size: 1.1em;
+    word-spacing: 5px;
+}
+
+
+body{
+    background: radial-gradient(50% 50%,#fa320a, #EC6A50);
+
+}
+
+header {
+    background:rgb(250, 50, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 2px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 21px;
+    position: relative;
+    top: 2px;
+}
+
+
+ nav li {
+     list-style: none;
+     margin: 11px;
+ }
+
+ main{
+     padding-top: 67px;
+ } 
+
+ blockquote{
+     margin: 20px;
+     
+     text-align: center;
+     margin-bottom: 40px;
+ }
+
+ #qauth{
+     text-align: right;
+     margin-right: 20px;
+
+ }
+
+ h2 {
+     text-align: center;
+     font-size: 1.5em;
+     margin-bottom: 20px;
+ }
+#how-it-works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#features{
+    max-width: 95%;
+margin: 0 auto;
+text-align: left;
+}
+
+.product {
+
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  .pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+  }
+  
+  #pricing{
+      margin-top: 50px;
+  }
