@@ -3,7 +3,7 @@
     padding: 0;
     font-size: 25px;
     /* box-sizing: border-box; */
-    /* border: 1px solid #ababab; */
+    border: 1px solid #ababab;
 }
 a {
     text-decoration: none;
@@ -116,7 +116,7 @@ text-align: left;
   }
 
   #stains {
-      width: 100%;
+      width: 90%;
       height: 100%;
       position: absolute;
       z-index: -1;
@@ -148,12 +148,13 @@ hr{
       }
       main{
           padding-top: 232px;
+     width: 100%; 
       }
       blockquote{
           text-align:right;
       }
       iframe{
           width: 100%;
-      }
-      
+        }
+
   }
