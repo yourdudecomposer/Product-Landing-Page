@@ -114,3 +114,46 @@ text-align: left;
   #pricing{
       margin-top: 50px;
   }
+
+  #stains {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      opacity: 0.4;
+  }
+hr{
+    display: none;
+}
+  @media (max-width:550px) {
+      header {
+          flex-direction: column;
+      }
+      #nav-bar > ul{
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .logo{
+          position: relative;
+          right: 50px;
+      }
+      hr{
+          display: block;
+          width: 70%;
+          color: rgb(255, 255, 255);
+          opacity: 0.4;
+          margin-top: 10px;
+      }
+      main{
+          padding-top: 232px;
+      }
+      blockquote{
+          text-align:right;
+      }
+      iframe{
+          width: 100%;
+      }
+      
+  }
