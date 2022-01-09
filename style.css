@@ -132,14 +132,15 @@ h2 {
     width: 90%;
     height: 100%;
     position: absolute;
+    margin-left: 100px;
     z-index: -1;
     top: 70%;
     opacity: 0.4;
 }
-#stains:nth-child(2){
+#stains:nth-child(3){
     display: none;
 }
-#stains:nth-child(3){
+#stains:nth-child(4){
     display: none;
 }
 hr {
@@ -291,20 +292,22 @@ hr {
         z-index: -1;
         top: 200%;
         opacity: 0.4;
-
+        margin: 0;
+height: 65%;
     }
 
-    #stains:nth-child(4) {
-        display: initial;
-      top: 210%;
+    #stains:nth-child(2) {
+      top: 640px;
+      display: initial;
+      border: 1px solid;
     }
     #stains:nth-child(3) {
         display: initial;
-      top: 500%;
+        top: 1100px;
     }
-    #stains:nth-child(2) {
-      top: 350%;
-      display: initial;
+    #stains:nth-child(4) {
+        display: initial;
+      top: 1550px;
     }
 }
 
