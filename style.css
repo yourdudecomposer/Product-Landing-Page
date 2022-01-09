@@ -131,25 +131,10 @@ h2 {
     margin-top: 20px;
 }
 
-#stains {
-    width: 90%;
-    height: 600px;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    z-index: -1;
-    top: 70%;
-    opacity: 0.4;
-
-}
-
-#stains:nth-child(2) {
+.stains{
     display: none;
 }
 
-#stains:nth-child(3) {
-    display: none;
-}
 
 hr {
     display: none;
@@ -215,10 +200,18 @@ hr {
 .product:nth-child(3)>div :nth-child(1) {
     left: 40px;
     z-index: -2;
+
 }
 
 
-
+#stains{
+    position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+top: 65%;
+opacity: 0.4;
+}
 
 footer>form {
     display: flex;
@@ -263,8 +256,8 @@ footer input:nth-child(1)[placeholder] {
 
 
     .product img {
-        width: 60px;
-        height: 65px;
+        width: 57px;
+        height: 62px;
     }
 
     #header-img {
@@ -339,40 +332,26 @@ footer input:nth-child(1)[placeholder] {
         margin-right: 0;
     }
 
+
     #stains {
+        display: none;
+    }
+    .stains img {
         position: initial;
         z-index: -1;
         top: 200%;
         opacity: 0.4;
         margin: 0;
+        width: 90%;
         height: 45%;
     }
-
-    .stains{
-        position: absolute;
-    }
-
-    #stains:nth-child(2) {
-        top: 640px;
-        display: initial;
-    }
-
-    #stains:nth-child(3) {
-        display: initial;
-        top: 1100px;
-    }
-
-    #stains:nth-child(4) {
-        display: initial;
-        top: 1550px;
-    }
-
-    footer input:nth-child(1) {
+      footer input:nth-child(1) {
         height: 30px;
         border: 2px solid rgb(250, 50, 10);
     }
 
     .stains {
+        position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
